@@ -44,6 +44,10 @@ header div.slogan {
 	transform: translate(-50%, -50%);
 	color: white;
 }
+header div.slogan h1,
+header div.slogan p {
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.75);
+}
 
 .icon-big {
     font-size: 350%;
@@ -143,6 +147,7 @@ section.sec4 .sec4-box {
     padding-right: 15px;
     padding-bottom: 15px;
     border-radius: 5px;
+    box-shadow: 0 28px 15px -20px rgba(0,0,0, 0.75);
 }
 section.sec4 > div > div:nth-child(1) > div > h2,
 section.sec4 > div > div:nth-child(1) > div > p {
