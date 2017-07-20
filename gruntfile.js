@@ -3,8 +3,8 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       task: {
-        src: ['_roboczy/js/skrypty.js'], 
-        dest: 'js/skrypty.min.js'
+        src: ['_dev/js/skrypty.js'], 
+        dest: '_final/js/skrypty.min.js'
       },
       options: {
         'mangle': {},
@@ -26,8 +26,8 @@ module.exports = function(grunt) {
     },
     cssmin: {
       task: {
-        src: ['_roboczy/css/style.css'], 
-        dest: 'css/style.min.css'
+        src: ['_dev/css/style.css'], 
+        dest: '_final/css/style.min.css'
       },
       options: {
         'banner': null,
