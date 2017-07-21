@@ -171,6 +171,7 @@ section.sec4 .sec4-box {
     border-radius: 5px;
     box-shadow: 0 28px 15px -20px rgba(0,0,0, 0.75);
     transition: all .5s;
+    margin-bottom: 15px;
 }
 section.sec4 .sec4-box:hover {
 	transform: translateY(-5px);
@@ -182,16 +183,14 @@ section.sec4 > div > div:nth-child(1) > div > p {
 }
 
 section.secMap {
+	background-image: linear-gradient(rgba(72, 1, 1, 0.5),rgba(0, 39, 3, 0.5)),url('../img/map.png');
+	background-size: cover;
+	background-position: center;
 	margin-left: 0;
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
     height: 400px;
-    overflow: hidden;
-}
-section.secMap img {
-	width: 100%;
-	height: auto;
 }
 
 footer {
@@ -227,4 +226,16 @@ footer .foot-social a {
 }
 footer .foot-social a:hover {
 	color: #dcdcdc;
+}
+
+@media screen and (max-width: 480px) {
+    footer ul.footer-nav li a {
+		font-size: 1em;
+	    margin-right: 10px;
+	}
+	footer .foot-social a {
+		font-size: 1.5em;
+	    margin-right: 10px;
+	}
+
 }
