@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/ionicons.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <link href="css/style.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -23,8 +24,8 @@
   <body>
     <header>
       <div class="container">
-        <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
@@ -36,9 +37,11 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="#">Menu <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Menu</a></li>
+              <li><a href="#about">About <span class="sr-only">(current)</span></a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#info">Info</a></li>
+              <li><a href="#offer">Offer</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -53,7 +56,7 @@
       </div>
     </header>
 
-    <section class="container sec1">
+    <section class="container sec1 jq-sec1" id="about">
       <div class="row">
         <div class="col-md-12">
           <h2 class="h-line">Nullam consectetur ante non nisi finibus, non congue sem volutpat.</h2>
@@ -62,33 +65,33 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 jq-about delay-1">
           <i class="ion-shuffle icon-big"></i>
-          <h3>Vestibulum nec bibendum metus.</h3>
+          <h3>Vestibulum nec bibendum metus 1.</h3>
           <p>
               Vivamus ut elit rhoncus, luctus urna in, ornare diam. Nulla maximus mattis ligula id cursus. Vestibulum nec bibendum metus.
           </p>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 jq-about delay-2">
           <i class="ion-clock icon-big"></i>
-          <h3>Vestibulum nec bibendum metus.</h3>
+          <h3>Vestibulum nec bibendum metus 2.</h3>
           <p>
               Vivamus ut elit rhoncus, luctus urna in, ornare diam. Nulla maximus mattis ligula id cursus. Vestibulum nec bibendum metus.
           </p>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 jq-about delay-3">
           <i class="ion-earth icon-big"></i>
-          <h3>Vestibulum nec bibendum metus.</h3>
+          <h3>Vestibulum nec bibendum metus 3.</h3>
           <p>
               Vivamus ut elit rhoncus, luctus urna in, ornare diam. Nulla maximus mattis ligula id cursus. Vestibulum nec bibendum metus.
           </p>
         </div>
 
-        <div class="col-sm-12 col-md-6 col-lg-3">
+        <div class="col-sm-12 col-md-6 col-lg-3 jq-about delay-4">
           <i class="ion-ribbon-a icon-big"></i>
-          <h3>Vestibulum nec bibendum metus.</h3>
+          <h3>Vestibulum nec bibendum metus 4.</h3>
           <p>
               Vivamus ut elit rhoncus, luctus urna in, ornare diam. Nulla maximus mattis ligula id cursus. Vestibulum nec bibendum metus.
           </p>
@@ -97,7 +100,7 @@
       </div>
     </section>
 
-    <section class="container-fluid sec2">
+    <section class="container-fluid sec2" id="gallery">
       <div class="row">
         <div class="col-sm-6 col-md-3 myGallery">
           <figure>
@@ -175,7 +178,7 @@
 
     </section>
 
-    <section class="container-fluid sec3">
+    <section class="container-fluid sec3" id="info">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -227,7 +230,7 @@
       </div>  
     </section>
 
-    <section class="container-fluid sec4">
+    <section class="container-fluid sec4" id="offer">
       <div class="container">
         <div class="row">
               <div class="col-md-12">
@@ -292,7 +295,7 @@
       </div>
     </section>
 
-    <section class="container secForm">
+    <section class="container secForm" id="contact">
 
     <div class="row">
       <div class="col-md-12 text-center">
@@ -377,5 +380,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/skrypty.min.js"></script>
   </body>
 </html>

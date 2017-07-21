@@ -14,6 +14,11 @@ header {
 	border-color: transparent;
 	background-image: none;
 	box-shadow: none;	
+	transition: all 1s;
+}
+nav.tlo {
+	background-color: rgba(0, 0, 0, 0.75)!important;
+	transition: all 1s;
 }
 .navbar-default .navbar-header .navbar-brand {
 	font-size: 2em;
@@ -73,6 +78,24 @@ section.sec1 h2 {
 }
 section.sec1 > div:nth-child(2) > div > h3 {
 	margin-top: 0;
+}
+#about > div:nth-child(2) > div.jq-about {
+	opacity: 0;
+}
+#about > div:nth-child(2) > div.jq-about.animated {
+	opacity: 1;
+}
+#about > div:nth-child(2) > div.jq-about.delay-1 {
+	animation-delay: 0;
+}
+#about > div:nth-child(2) > div.jq-about.delay-2 {
+	animation-delay: 0.2s;
+}
+#about > div:nth-child(2) > div.jq-about.delay-3 {
+	animation-delay: 0.4s;
+}
+#about > div:nth-child(2) > div.jq-about.delay-4 {
+	animation-delay: 0.6s;
 }
 
 section.sec2,
@@ -139,7 +162,6 @@ section.sec4 {
 	background-position: center;
 	background-attachment: fixed;
 }
-
 section.sec4 .sec4-box {
     background-color: #f0f8ff;
     padding-top: 5px;
@@ -148,6 +170,11 @@ section.sec4 .sec4-box {
     padding-bottom: 15px;
     border-radius: 5px;
     box-shadow: 0 28px 15px -20px rgba(0,0,0, 0.75);
+    transition: all .5s;
+}
+section.sec4 .sec4-box:hover {
+	transform: translateY(-5px);
+	background-color: #f7f4ec;
 }
 section.sec4 > div > div:nth-child(1) > div > h2,
 section.sec4 > div > div:nth-child(1) > div > p {
