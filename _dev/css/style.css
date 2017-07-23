@@ -237,5 +237,8 @@ footer .foot-social a:hover {
 		font-size: 1.5em;
 	    margin-right: 10px;
 	}
+	footer ul.footer-nav li a {
+		font-size: .9em;
+	}
 
 }
