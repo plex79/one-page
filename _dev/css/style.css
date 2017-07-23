@@ -228,6 +228,18 @@ footer .foot-social a:hover {
 	color: #dcdcdc;
 }
 
+
+@media screen and (max-width: 768px) {
+    section.sec3 div.el-number {
+    	font-size: 3em;
+    	width: 20%;
+    }
+    section.sec3 .el-text {
+    	font-size: 1.1em;
+    	width: 80%;
+}
+}
+
 @media screen and (max-width: 480px) {
     footer ul.footer-nav li a {
 		font-size: 1em;
